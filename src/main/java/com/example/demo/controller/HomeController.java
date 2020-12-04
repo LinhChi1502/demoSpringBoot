@@ -24,4 +24,9 @@ public class HomeController {
         return "home";
     }
 
+
+    @GetMapping("/page403")
+    public String khongcoquyen(){
+        return "khongcoquyen";
+    }
 }
